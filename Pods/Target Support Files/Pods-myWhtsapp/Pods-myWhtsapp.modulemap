@@ -1,0 +1,6 @@
+framework module Pods_myWhtsapp {
+  umbrella header "Pods-myWhtsapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096E51688FD34583C7373BF707FF819D /* ALTextInputBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A191ADA776C413A794F10A5C7502EA73 /* ALTextInputBarDelegate.swift */; };
+		0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE6AE40D07A5684CD1B5DE2B4F41A5D /* ImageProcessor.swift */; };
+		12328FC7793869E42266B8A2E846E562 /* ALKeyboardObservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBAA5302CD0C7873740806E407B6B9D /* ALKeyboardObservingView.swift */; };
+		179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4555E1E76FCED76B43535B8BB4ECAB16 /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17C24653C3B9A56E104D7FC8B8B57610 /* ASJExpandableTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ECAF9BF35D49587AA2276F4135E228 /* ASJExpandableTextView.m */; };
+		1A4A98F57C37D237413E4CF334B631FF /* ALTextInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA54B02382F437D5B4A42BD6323DCDBC /* ALTextInputBar.swift */; };
+		1B479C73B015D794EA266528AB3DD675 /* GrowingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41364D56D74C96ED0ED9F86FE468D890 /* GrowingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB4CD1D7AEB5F39A44BD62865C87436 /* ASJExpandableTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = BCFB8D49884B63F3A84909BC2E0FA522 /* ASJExpandableTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4850A1EDDA83A8C698A759E3746403F /* CacheSerializer.swift */; };
+		2E896F0F66190A3B01E18C5CD61B4EB5 /* KMPlaceholderTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9582DFCD0BA8B79B2B098D7E954CBD /* KMPlaceholderTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6C12343656B6022795EC86E16E259C /* ALTextInputBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88218084A1E43151FFB306530B561F3B /* ALTextInputBar-dummy.m */; };
+		33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891D017631E86088C65F76D68AF7634D /* ImageView+Kingfisher.swift */; };
+		33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5C8A768551BC51DC769B0ADDC4CC57 /* Image.swift */; };
+		3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3897396E15A1056403956FD543CE3E /* ImagePrefetcher.swift */; };
+		342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46270B8FBD0A8CE94F09FC1FA0BD4B30 /* AnimatedImageView.swift */; };
+		378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC79CDEB5D0CF3FE0B1D08DC5CE9E6D /* KingfisherOptionsInfo.swift */; };
+		3E8E35BE5DE22A4881D2A8A32BB912F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01DB88011F19DA20B35B516BC0FB33F /* UIKit.framework */; };
+		4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3000A19A37DB08714E7ED4ED2A458C87 /* Filter.swift */; };
+		4B18BAB62863372CC0CE5F4708517D96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */; };
+		52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC7D91F2A50D58AB626B62F2389574 /* Indicator.swift */; };
+		55BDF6E8402892504C677611F5A983A6 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A079EB6AFC0C28D428D0F036A83C2946 /* GrowingTextView.swift */; };
+		5ED67751A9F7FD44229D107646003B35 /* ALTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5816070B741401FF8761D39B26923185 /* ALTextView.swift */; };
+		6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454A19ADE9999E331050CC9933B25EE8 /* Kingfisher-dummy.m */; };
+		6BFAF07C46CE37B77A7758EAC7575753 /* Pods-myWhtsapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3B2FAA958529ABDDC9BC0B282D3492 /* Pods-myWhtsapp-dummy.m */; };
+		6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5734A136799B63D3127619CFA0057037 /* ThreadHelper.swift */; };
+		6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FF4B50C311F5441B92AC5A59EB6B47 /* Box.swift */; };
+		7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAE678EE1521766396BF83A47293115 /* KingfisherManager.swift */; };
+		778863A3912ACF458A7DBCC81F2FD89B /* Pods-myWhtsapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C888AD5B6B81E6DEEB358A3B41335DB /* Pods-myWhtsapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831DA0058461AEC7312F9502750B7722 /* ImageTransition.swift */; };
+		8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0021FFD173237D1E4EB2F716D40DFFD /* Resource.swift */; };
+		8F887FA2A0A708B7D7937E1F768E2628 /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1118B12FBD8F3A62A7776FEF0708B67 /* KMPlaceholderTextView.swift */; };
+		92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FF89BDA4E0B4DF9B5AD4A23D79059B /* CFNetwork.framework */; };
+		92192642481209BC74A7EC731BAE7F02 /* ALTextInputBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B583978DFF1EC605085462743E600EF0 /* ALTextInputBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */; };
+		9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A05163CEC3346A2E2B0F13F7EEAAB1 /* String+MD5.swift */; };
+		A040A9D5ECB6B981C742DC47023E140A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */; };
+		A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026A34BD8A8F380B202A4F93C1FEC9B7 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB687909577B7EAE55098B7A2762D7F7 /* GrowingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8039B8D56289FCE2C70E3E54C379858 /* GrowingTextView-dummy.m */; };
+		C266D27BF0BD3E3640982A0C5E32C955 /* ALTextInputUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116F026BE2003D9A83B9AE13ABE1A3C2 /* ALTextInputUtilities.swift */; };
+		C2D29641810DA0759AB7B38F178ABFFD /* ASJExpandableTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79283378788D0BC3D350F0A4922AAD57 /* ASJExpandableTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32F4AE0D5E8D9D07786045D9B0EF8BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */; };
+		C55D828F8F253D726165D4CEA378FAF5 /* ASJInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2205366A7563B05B6275B48B217D8769 /* ASJInputAccessoryView.xib */; };
+		C8D93015CF1D621ABBA98D205001709B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */; };
+		C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418F7E21B56375E5B3C9C8AFE37A222 /* Kingfisher.swift */; };
+		DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8FA3A1FB9D308D86AE0352E4704705 /* ImageDownloader.swift */; };
+		E09F1A5AF8F7ADFEE2BF14C0518EC24A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */; };
+		E959A8D3A0DDAE65456D324B7CC894B0 /* KMPlaceholderTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5D2D58F1E76DFDE90F0C8B3F0950BE /* KMPlaceholderTextView-dummy.m */; };
+		EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5965A1303EEF010E5C5730C7312B1E /* RequestModifier.swift */; };
+		EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED65A1B244C2131A7DC05FDE5CDD35AC /* UIButton+Kingfisher.swift */; };
+		F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67493FE2F6548379F56138A59E8BA9ED /* ImageCache.swift */; };
+		F96467B00DB3904986883BDBF4EED32A /* ASJExpandableTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ACC29C72829C30C71DA29FACE38DBE /* ASJExpandableTextView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FCF3A097A147814A269BD7AA013D31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53804E34279A83A61915C6ACA3C0D06;
+			remoteInfo = KMPlaceholderTextView;
+		};
+		8C57BF0D9AAC2841F20D5E64B6D479C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4944FEC314D1A66588651D006273ADE;
+			remoteInfo = Kingfisher;
+		};
+		B94112B13E745D3D161494A57E258F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEF46F3B8A411DED7BF5C736506D068;
+			remoteInfo = GrowingTextView;
+		};
+		D0200EA0EBC31071EE1D2659C85D64FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49E49CAB1E94D750D1376CF1811A64DF;
+			remoteInfo = ALTextInputBar;
+		};
+		DA19CDEA336A875FC8F81CBFBFA06564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2140E9649D698A3434B1489C2C40558E;
+			remoteInfo = ASJExpandableTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026A34BD8A8F380B202A4F93C1FEC9B7 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		069A0306E6679FD2B207D24FEA7319D0 /* Pods-myWhtsapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myWhtsapp.modulemap"; sourceTree = "<group>"; };
+		0BBAA5302CD0C7873740806E407B6B9D /* ALKeyboardObservingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALKeyboardObservingView.swift; path = ALTextInputBar/ALKeyboardObservingView.swift; sourceTree = "<group>"; };
+		0CE681E4267194E524BB1017E7103D50 /* GrowingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-prefix.pch"; sourceTree = "<group>"; };
+		10AE6ABF2D4050505FAB598D72D0F4F7 /* ASJExpandableTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASJExpandableTextView.xcconfig; sourceTree = "<group>"; };
+		116F026BE2003D9A83B9AE13ABE1A3C2 /* ALTextInputUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextInputUtilities.swift; path = ALTextInputBar/ALTextInputUtilities.swift; sourceTree = "<group>"; };
+		12ECAF9BF35D49587AA2276F4135E228 /* ASJExpandableTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASJExpandableTextView.m; path = ASJExpandableTextView/ASJExpandableTextView.m; sourceTree = "<group>"; };
+		1A5D2D58F1E76DFDE90F0C8B3F0950BE /* KMPlaceholderTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMPlaceholderTextView-dummy.m"; sourceTree = "<group>"; };
+		1C888AD5B6B81E6DEEB358A3B41335DB /* Pods-myWhtsapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myWhtsapp-umbrella.h"; sourceTree = "<group>"; };
+		1F3897396E15A1056403956FD543CE3E /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		2205366A7563B05B6275B48B217D8769 /* ASJInputAccessoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ASJInputAccessoryView.xib; path = ASJExpandableTextView/ASJInputAccessoryView.xib; sourceTree = "<group>"; };
+		29862FE4C1E854A2766B3E752FA194C6 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		29FF89BDA4E0B4DF9B5AD4A23D79059B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		2CC79CDEB5D0CF3FE0B1D08DC5CE9E6D /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		3000A19A37DB08714E7ED4ED2A458C87 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		316840B527481C72D51D53E15BC75362 /* Pods-myWhtsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWhtsapp.release.xcconfig"; sourceTree = "<group>"; };
+		3418F7E21B56375E5B3C9C8AFE37A222 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		36146F1A33DBB9064BF630A9DD0672ED /* Pods-myWhtsapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWhtsapp-frameworks.sh"; sourceTree = "<group>"; };
+		38CF0942F0D7A5F5BD1F59BC1F41D55B /* KMPlaceholderTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KMPlaceholderTextView.framework; path = KMPlaceholderTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE9033631DE12AA5BEC8D42DEC0A2CC /* Pods-myWhtsapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myWhtsapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D8FA3A1FB9D308D86AE0352E4704705 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		404B2081B0C4CB138E3D2E58B5D76ACB /* Pods_myWhtsapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myWhtsapp.framework; path = "Pods-myWhtsapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41364D56D74C96ED0ED9F86FE468D890 /* GrowingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-umbrella.h"; sourceTree = "<group>"; };
+		440FB9FBBF6A49DB708A6DA1F3698B00 /* KMPlaceholderTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KMPlaceholderTextView.modulemap; sourceTree = "<group>"; };
+		44AAC1BA306438C7D8C8F552DF5155DF /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrowingTextView.framework; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		454A19ADE9999E331050CC9933B25EE8 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		4555E1E76FCED76B43535B8BB4ECAB16 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		46270B8FBD0A8CE94F09FC1FA0BD4B30 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		477975EA2A28107B96942C9831B3A7E6 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		4B8651E88752616155C145E9B9198D99 /* ALTextInputBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALTextInputBar-prefix.pch"; sourceTree = "<group>"; };
+		51FF4B50C311F5441B92AC5A59EB6B47 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		5538292771761461D4AC587B21A42BA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A05163CEC3346A2E2B0F13F7EEAAB1 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		5734A136799B63D3127619CFA0057037 /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		5816070B741401FF8761D39B26923185 /* ALTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextView.swift; path = ALTextInputBar/ALTextView.swift; sourceTree = "<group>"; };
+		5FCEBBD4739C755890285D4D71257A29 /* KMPlaceholderTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPlaceholderTextView-prefix.pch"; sourceTree = "<group>"; };
+		66E2A343AAB769ECBD8A52EFE9232CC1 /* ALTextInputBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ALTextInputBar.modulemap; sourceTree = "<group>"; };
+		67493FE2F6548379F56138A59E8BA9ED /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		7442DEC3E741648691358E9B3B42779C /* Pods-myWhtsapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myWhtsapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76CC7D91F2A50D58AB626B62F2389574 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		7858C3F412A9C0943E7851349290E910 /* GrowingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GrowingTextView.modulemap; sourceTree = "<group>"; };
+		79283378788D0BC3D350F0A4922AAD57 /* ASJExpandableTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASJExpandableTextView-umbrella.h"; sourceTree = "<group>"; };
+		831DA0058461AEC7312F9502750B7722 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		86171D760FF0C6F43281F93501AE7D13 /* GrowingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrowingTextView.xcconfig; sourceTree = "<group>"; };
+		88218084A1E43151FFB306530B561F3B /* ALTextInputBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALTextInputBar-dummy.m"; sourceTree = "<group>"; };
+		891D017631E86088C65F76D68AF7634D /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8ED7AD646F0A486F1D8ED9ADBBD1C662 /* KMPlaceholderTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMPlaceholderTextView.xcconfig; sourceTree = "<group>"; };
+		918BC6BC412C041077F69D1AFB7D84FE /* Pods-myWhtsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWhtsapp.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96ACC29C72829C30C71DA29FACE38DBE /* ASJExpandableTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASJExpandableTextView-dummy.m"; sourceTree = "<group>"; };
+		9918B328F2E1B32CD8CD04184ED37F0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E84E4D06FAAA54B07F81395A812B149 /* Pods-myWhtsapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWhtsapp-resources.sh"; sourceTree = "<group>"; };
+		A079EB6AFC0C28D428D0F036A83C2946 /* GrowingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrowingTextView.swift; path = Pod/Classes/GrowingTextView.swift; sourceTree = "<group>"; };
+		A191ADA776C413A794F10A5C7502EA73 /* ALTextInputBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextInputBarDelegate.swift; path = ALTextInputBar/ALTextInputBarDelegate.swift; sourceTree = "<group>"; };
+		A7A19B1175F5BD30C645D132ECCB7FC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5AD2AAC89D7D5B1E58340207CF1945 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC5C8A768551BC51DC769B0ADDC4CC57 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		B583978DFF1EC605085462743E600EF0 /* ALTextInputBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALTextInputBar-umbrella.h"; sourceTree = "<group>"; };
+		B8039B8D56289FCE2C70E3E54C379858 /* GrowingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GrowingTextView-dummy.m"; sourceTree = "<group>"; };
+		BB9582DFCD0BA8B79B2B098D7E954CBD /* KMPlaceholderTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMPlaceholderTextView-umbrella.h"; sourceTree = "<group>"; };
+		BCFB8D49884B63F3A84909BC2E0FA522 /* ASJExpandableTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASJExpandableTextView.h; path = ASJExpandableTextView/ASJExpandableTextView.h; sourceTree = "<group>"; };
+		C4850A1EDDA83A8C698A759E3746403F /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		C62D881FE655AC28489DAC75D5572A97 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		D8EA04EE928DCC517DD3063C59BD59E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3B2FAA958529ABDDC9BC0B282D3492 /* Pods-myWhtsapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myWhtsapp-dummy.m"; sourceTree = "<group>"; };
+		DCAE678EE1521766396BF83A47293115 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		DEE6AE40D07A5684CD1B5DE2B4F41A5D /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		E0021FFD173237D1E4EB2F716D40DFFD /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		E01DB88011F19DA20B35B516BC0FB33F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E2F8CF5F447AF19614142FBD3A5109F6 /* ALTextInputBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALTextInputBar.framework; path = ALTextInputBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A660C3830928AFBE307EB734C21E74 /* ASJExpandableTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASJExpandableTextView.framework; path = ASJExpandableTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA54B02382F437D5B4A42BD6323DCDBC /* ALTextInputBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ALTextInputBar.swift; path = ALTextInputBar/ALTextInputBar.swift; sourceTree = "<group>"; };
+		EB6415D81D9E734DEF5DCF1B82E8835B /* ALTextInputBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALTextInputBar.xcconfig; sourceTree = "<group>"; };
+		ED65A1B244C2131A7DC05FDE5CDD35AC /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		EF5AD20E17FECF5348F881B87C5E346D /* ASJExpandableTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASJExpandableTextView.modulemap; sourceTree = "<group>"; };
+		F1118B12FBD8F3A62A7776FEF0708B67 /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KMPlaceholderTextView.swift; path = KMPlaceholderTextView/KMPlaceholderTextView.swift; sourceTree = "<group>"; };
+		F2CA4545CDD7511A8B5BE2ED440FEA7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F796810F58B533D985675ED21BF95571 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5965A1303EEF010E5C5730C7312B1E /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		FD3A0ABB6B10426871B1CBED7ADA2336 /* ASJExpandableTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASJExpandableTextView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190D9E9E0BD17FE527C61506BE87C609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32F4AE0D5E8D9D07786045D9B0EF8BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6C24D47E8DE3CF577B4540E0F9ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09F1A5AF8F7ADFEE2BF14C0518EC24A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0B278182CE7A36070E92E4A2CC7056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A040A9D5ECB6B981C742DC47023E140A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A0260A18E86F352333E4D7773BA84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D93015CF1D621ABBA98D205001709B /* Foundation.framework in Frameworks */,
+				3E8E35BE5DE22A4881D2A8A32BB912F7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23B4CF3C8173BDECC84A8EEEC568B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B18BAB62863372CC0CE5F4708517D96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */,
+				9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EDC5F18C3A48FA169AAADC5D63DF15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F246B884A0F192CAE637687AD7DB7785 /* ALTextInputBar */,
+				09CCA69DA131D984B1179808A8FC5203 /* ASJExpandableTextView */,
+				EB2CEF50A30F4B66D88AEE2A3DF11C0C /* GrowingTextView */,
+				0247645AE4A351570495B36682095CF0 /* Kingfisher */,
+				8D7B4B187B3D6002B92BDF0F711178A8 /* KMPlaceholderTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0247645AE4A351570495B36682095CF0 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				46270B8FBD0A8CE94F09FC1FA0BD4B30 /* AnimatedImageView.swift */,
+				51FF4B50C311F5441B92AC5A59EB6B47 /* Box.swift */,
+				C4850A1EDDA83A8C698A759E3746403F /* CacheSerializer.swift */,
+				3000A19A37DB08714E7ED4ED2A458C87 /* Filter.swift */,
+				AC5C8A768551BC51DC769B0ADDC4CC57 /* Image.swift */,
+				67493FE2F6548379F56138A59E8BA9ED /* ImageCache.swift */,
+				3D8FA3A1FB9D308D86AE0352E4704705 /* ImageDownloader.swift */,
+				1F3897396E15A1056403956FD543CE3E /* ImagePrefetcher.swift */,
+				DEE6AE40D07A5684CD1B5DE2B4F41A5D /* ImageProcessor.swift */,
+				831DA0058461AEC7312F9502750B7722 /* ImageTransition.swift */,
+				891D017631E86088C65F76D68AF7634D /* ImageView+Kingfisher.swift */,
+				76CC7D91F2A50D58AB626B62F2389574 /* Indicator.swift */,
+				4555E1E76FCED76B43535B8BB4ECAB16 /* Kingfisher.h */,
+				3418F7E21B56375E5B3C9C8AFE37A222 /* Kingfisher.swift */,
+				DCAE678EE1521766396BF83A47293115 /* KingfisherManager.swift */,
+				2CC79CDEB5D0CF3FE0B1D08DC5CE9E6D /* KingfisherOptionsInfo.swift */,
+				FC5965A1303EEF010E5C5730C7312B1E /* RequestModifier.swift */,
+				E0021FFD173237D1E4EB2F716D40DFFD /* Resource.swift */,
+				56A05163CEC3346A2E2B0F13F7EEAAB1 /* String+MD5.swift */,
+				5734A136799B63D3127619CFA0057037 /* ThreadHelper.swift */,
+				ED65A1B244C2131A7DC05FDE5CDD35AC /* UIButton+Kingfisher.swift */,
+				4FCEFEEB19ED0766419A81E397D0619F /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		09CCA69DA131D984B1179808A8FC5203 /* ASJExpandableTextView */ = {
+			isa = PBXGroup;
+			children = (
+				BCFB8D49884B63F3A84909BC2E0FA522 /* ASJExpandableTextView.h */,
+				12ECAF9BF35D49587AA2276F4135E228 /* ASJExpandableTextView.m */,
+				54DE7EAA918D0EE414C7D5A775AFD36A /* Resources */,
+				CE29DAE396C6E32D4AFE85DE1E8C5500 /* Support Files */,
+			);
+			name = ASJExpandableTextView;
+			path = ASJExpandableTextView;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62F33F2B2C4F822D878B09B4AB7C94AC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		445596FDEE304CD9F013E79F9CAA3C95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2CA4545CDD7511A8B5BE2ED440FEA7A /* Info.plist */,
+				440FB9FBBF6A49DB708A6DA1F3698B00 /* KMPlaceholderTextView.modulemap */,
+				8ED7AD646F0A486F1D8ED9ADBBD1C662 /* KMPlaceholderTextView.xcconfig */,
+				1A5D2D58F1E76DFDE90F0C8B3F0950BE /* KMPlaceholderTextView-dummy.m */,
+				5FCEBBD4739C755890285D4D71257A29 /* KMPlaceholderTextView-prefix.pch */,
+				BB9582DFCD0BA8B79B2B098D7E954CBD /* KMPlaceholderTextView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KMPlaceholderTextView";
+			sourceTree = "<group>";
+		};
+		4FCEFEEB19ED0766419A81E397D0619F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8EA04EE928DCC517DD3063C59BD59E6 /* Info.plist */,
+				29862FE4C1E854A2766B3E752FA194C6 /* Kingfisher.modulemap */,
+				C62D881FE655AC28489DAC75D5572A97 /* Kingfisher.xcconfig */,
+				454A19ADE9999E331050CC9933B25EE8 /* Kingfisher-dummy.m */,
+				477975EA2A28107B96942C9831B3A7E6 /* Kingfisher-prefix.pch */,
+				026A34BD8A8F380B202A4F93C1FEC9B7 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		54DE7EAA918D0EE414C7D5A775AFD36A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2205366A7563B05B6275B48B217D8769 /* ASJInputAccessoryView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		62F33F2B2C4F822D878B09B4AB7C94AC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29FF89BDA4E0B4DF9B5AD4A23D79059B /* CFNetwork.framework */,
+				8979B6534FF3C427ED68B9366A866A42 /* Foundation.framework */,
+				E01DB88011F19DA20B35B516BC0FB33F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78F12B639D7ACFDE1CEF7FC61D49259B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66E2A343AAB769ECBD8A52EFE9232CC1 /* ALTextInputBar.modulemap */,
+				EB6415D81D9E734DEF5DCF1B82E8835B /* ALTextInputBar.xcconfig */,
+				88218084A1E43151FFB306530B561F3B /* ALTextInputBar-dummy.m */,
+				4B8651E88752616155C145E9B9198D99 /* ALTextInputBar-prefix.pch */,
+				B583978DFF1EC605085462743E600EF0 /* ALTextInputBar-umbrella.h */,
+				5538292771761461D4AC587B21A42BA2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALTextInputBar";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				01EDC5F18C3A48FA169AAADC5D63DF15 /* Pods */,
+				D932B4A0C2486E80847FCACE5B00DD48 /* Products */,
+				DB34455D5F27F8EF9EA2811F59B3DC67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		802BC304EB76D97DBCCA6B57DAA308D0 /* Pods-myWhtsapp */ = {
+			isa = PBXGroup;
+			children = (
+				F796810F58B533D985675ED21BF95571 /* Info.plist */,
+				069A0306E6679FD2B207D24FEA7319D0 /* Pods-myWhtsapp.modulemap */,
+				7442DEC3E741648691358E9B3B42779C /* Pods-myWhtsapp-acknowledgements.markdown */,
+				3AE9033631DE12AA5BEC8D42DEC0A2CC /* Pods-myWhtsapp-acknowledgements.plist */,
+				DC3B2FAA958529ABDDC9BC0B282D3492 /* Pods-myWhtsapp-dummy.m */,
+				36146F1A33DBB9064BF630A9DD0672ED /* Pods-myWhtsapp-frameworks.sh */,
+				9E84E4D06FAAA54B07F81395A812B149 /* Pods-myWhtsapp-resources.sh */,
+				1C888AD5B6B81E6DEEB358A3B41335DB /* Pods-myWhtsapp-umbrella.h */,
+				918BC6BC412C041077F69D1AFB7D84FE /* Pods-myWhtsapp.debug.xcconfig */,
+				316840B527481C72D51D53E15BC75362 /* Pods-myWhtsapp.release.xcconfig */,
+			);
+			name = "Pods-myWhtsapp";
+			path = "Target Support Files/Pods-myWhtsapp";
+			sourceTree = "<group>";
+		};
+		8ACB55CFFDE4B42FC97BC8DEB824CD7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7858C3F412A9C0943E7851349290E910 /* GrowingTextView.modulemap */,
+				86171D760FF0C6F43281F93501AE7D13 /* GrowingTextView.xcconfig */,
+				B8039B8D56289FCE2C70E3E54C379858 /* GrowingTextView-dummy.m */,
+				0CE681E4267194E524BB1017E7103D50 /* GrowingTextView-prefix.pch */,
+				41364D56D74C96ED0ED9F86FE468D890 /* GrowingTextView-umbrella.h */,
+				9918B328F2E1B32CD8CD04184ED37F0C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GrowingTextView";
+			sourceTree = "<group>";
+		};
+		8D7B4B187B3D6002B92BDF0F711178A8 /* KMPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F1118B12FBD8F3A62A7776FEF0708B67 /* KMPlaceholderTextView.swift */,
+				445596FDEE304CD9F013E79F9CAA3C95 /* Support Files */,
+			);
+			name = KMPlaceholderTextView;
+			path = KMPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		CE29DAE396C6E32D4AFE85DE1E8C5500 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5AD20E17FECF5348F881B87C5E346D /* ASJExpandableTextView.modulemap */,
+				10AE6ABF2D4050505FAB598D72D0F4F7 /* ASJExpandableTextView.xcconfig */,
+				96ACC29C72829C30C71DA29FACE38DBE /* ASJExpandableTextView-dummy.m */,
+				FD3A0ABB6B10426871B1CBED7ADA2336 /* ASJExpandableTextView-prefix.pch */,
+				79283378788D0BC3D350F0A4922AAD57 /* ASJExpandableTextView-umbrella.h */,
+				A7A19B1175F5BD30C645D132ECCB7FC9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASJExpandableTextView";
+			sourceTree = "<group>";
+		};
+		D932B4A0C2486E80847FCACE5B00DD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8CF5F447AF19614142FBD3A5109F6 /* ALTextInputBar.framework */,
+				E9A660C3830928AFBE307EB734C21E74 /* ASJExpandableTextView.framework */,
+				44AAC1BA306438C7D8C8F552DF5155DF /* GrowingTextView.framework */,
+				AB5AD2AAC89D7D5B1E58340207CF1945 /* Kingfisher.framework */,
+				38CF0942F0D7A5F5BD1F59BC1F41D55B /* KMPlaceholderTextView.framework */,
+				404B2081B0C4CB138E3D2E58B5D76ACB /* Pods_myWhtsapp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB34455D5F27F8EF9EA2811F59B3DC67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				802BC304EB76D97DBCCA6B57DAA308D0 /* Pods-myWhtsapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB2CEF50A30F4B66D88AEE2A3DF11C0C /* GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				A079EB6AFC0C28D428D0F036A83C2946 /* GrowingTextView.swift */,
+				8ACB55CFFDE4B42FC97BC8DEB824CD7D /* Support Files */,
+			);
+			name = GrowingTextView;
+			path = GrowingTextView;
+			sourceTree = "<group>";
+		};
+		F246B884A0F192CAE637687AD7DB7785 /* ALTextInputBar */ = {
+			isa = PBXGroup;
+			children = (
+				0BBAA5302CD0C7873740806E407B6B9D /* ALKeyboardObservingView.swift */,
+				EA54B02382F437D5B4A42BD6323DCDBC /* ALTextInputBar.swift */,
+				A191ADA776C413A794F10A5C7502EA73 /* ALTextInputBarDelegate.swift */,
+				116F026BE2003D9A83B9AE13ABE1A3C2 /* ALTextInputUtilities.swift */,
+				5816070B741401FF8761D39B26923185 /* ALTextView.swift */,
+				78F12B639D7ACFDE1CEF7FC61D49259B /* Support Files */,
+			);
+			name = ALTextInputBar;
+			path = ALTextInputBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */,
+				179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32860625DCF2B878D3652984A9494BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778863A3912ACF458A7DBCC81F2FD89B /* Pods-myWhtsapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		770682F987B64D6C81DC89345EDFA311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92192642481209BC74A7EC731BAE7F02 /* ALTextInputBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D614D041A3EF4EF826AC2014898E35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B479C73B015D794EA266528AB3DD675 /* GrowingTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF7C0E7C3C89F4A2AFF00123BD98813 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D29641810DA0759AB7B38F178ABFFD /* ASJExpandableTextView-umbrella.h in Headers */,
+				1FB4CD1D7AEB5F39A44BD62865C87436 /* ASJExpandableTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1670857A3C496A3945B6C4CA7762E1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E896F0F66190A3B01E18C5CD61B4EB5 /* KMPlaceholderTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2140E9649D698A3434B1489C2C40558E /* ASJExpandableTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0230C78404A25B377767385F2817B0B6 /* Build configuration list for PBXNativeTarget "ASJExpandableTextView" */;
+			buildPhases = (
+				B194D5FA3F1149C8746EB1BDAF1236F0 /* Sources */,
+				190D9E9E0BD17FE527C61506BE87C609 /* Frameworks */,
+				DBF7C0E7C3C89F4A2AFF00123BD98813 /* Headers */,
+				B0D90D9CAC517CF107E0D6778330D57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASJExpandableTextView;
+			productName = ASJExpandableTextView;
+			productReference = E9A660C3830928AFBE307EB734C21E74 /* ASJExpandableTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49E49CAB1E94D750D1376CF1811A64DF /* ALTextInputBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9791C819583702E93C59242B2DE4D01D /* Build configuration list for PBXNativeTarget "ALTextInputBar" */;
+			buildPhases = (
+				58F30D4F756EC7D8C97DAB330E7625DA /* Sources */,
+				C23B4CF3C8173BDECC84A8EEEC568B15 /* Frameworks */,
+				770682F987B64D6C81DC89345EDFA311 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALTextInputBar;
+			productName = ALTextInputBar;
+			productReference = E2F8CF5F447AF19614142FBD3A5109F6 /* ALTextInputBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F14B3496CDF3D8143C49DF5720E22E0 /* Pods-myWhtsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C060605EEFE3D6CC2A84DBDF9B9FC5 /* Build configuration list for PBXNativeTarget "Pods-myWhtsapp" */;
+			buildPhases = (
+				B68974BB8BDE5148A6E6EE3415196DFC /* Sources */,
+				6D0B278182CE7A36070E92E4A2CC7056 /* Frameworks */,
+				32860625DCF2B878D3652984A9494BAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CB3CD57451609525C60254DEFC275E /* PBXTargetDependency */,
+				8C8FEA03EEAF2616AD0087959D89A388 /* PBXTargetDependency */,
+				9F0DACD41A614E0CEBB9E7D584094DC8 /* PBXTargetDependency */,
+				3C451D934D96682AF2F940C7471E8C51 /* PBXTargetDependency */,
+				832B0F94E0D4E221E2870881E1D1C75D /* PBXTargetDependency */,
+			);
+			name = "Pods-myWhtsapp";
+			productName = "Pods-myWhtsapp";
+			productReference = 404B2081B0C4CB138E3D2E58B5D76ACB /* Pods_myWhtsapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D06AB6B47A55D6657753C9AF1E4D6B /* Build configuration list for PBXNativeTarget "GrowingTextView" */;
+			buildPhases = (
+				A55536A889CFB76122EC634DF366C8DB /* Sources */,
+				42A6C24D47E8DE3CF577B4540E0F9ED9 /* Frameworks */,
+				C3D614D041A3EF4EF826AC2014898E35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowingTextView;
+			productName = GrowingTextView;
+			productReference = 44AAC1BA306438C7D8C8F552DF5155DF /* GrowingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4944FEC314D1A66588651D006273ADE /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				EAC7EA95310C5E1E724C632852F7D186 /* Sources */,
+				ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */,
+				0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = AB5AD2AAC89D7D5B1E58340207CF1945 /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D53804E34279A83A61915C6ACA3C0D06 /* KMPlaceholderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067781AD62F19538A7B4C2223D362013 /* Build configuration list for PBXNativeTarget "KMPlaceholderTextView" */;
+			buildPhases = (
+				286AFF2EAEE4EDB82052954482C97772 /* Sources */,
+				B0A0260A18E86F352333E4D7773BA84F /* Frameworks */,
+				E1670857A3C496A3945B6C4CA7762E1A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMPlaceholderTextView;
+			productName = KMPlaceholderTextView;
+			productReference = 38CF0942F0D7A5F5BD1F59BC1F41D55B /* KMPlaceholderTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D932B4A0C2486E80847FCACE5B00DD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E49CAB1E94D750D1376CF1811A64DF /* ALTextInputBar */,
+				2140E9649D698A3434B1489C2C40558E /* ASJExpandableTextView */,
+				ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */,
+				C4944FEC314D1A66588651D006273ADE /* Kingfisher */,
+				D53804E34279A83A61915C6ACA3C0D06 /* KMPlaceholderTextView */,
+				5F14B3496CDF3D8143C49DF5720E22E0 /* Pods-myWhtsapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D90D9CAC517CF107E0D6778330D57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55D828F8F253D726165D4CEA378FAF5 /* ASJInputAccessoryView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286AFF2EAEE4EDB82052954482C97772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E959A8D3A0DDAE65456D324B7CC894B0 /* KMPlaceholderTextView-dummy.m in Sources */,
+				8F887FA2A0A708B7D7937E1F768E2628 /* KMPlaceholderTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58F30D4F756EC7D8C97DAB330E7625DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12328FC7793869E42266B8A2E846E562 /* ALKeyboardObservingView.swift in Sources */,
+				2F6C12343656B6022795EC86E16E259C /* ALTextInputBar-dummy.m in Sources */,
+				1A4A98F57C37D237413E4CF334B631FF /* ALTextInputBar.swift in Sources */,
+				096E51688FD34583C7373BF707FF819D /* ALTextInputBarDelegate.swift in Sources */,
+				C266D27BF0BD3E3640982A0C5E32C955 /* ALTextInputUtilities.swift in Sources */,
+				5ED67751A9F7FD44229D107646003B35 /* ALTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55536A889CFB76122EC634DF366C8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB687909577B7EAE55098B7A2762D7F7 /* GrowingTextView-dummy.m in Sources */,
+				55BDF6E8402892504C677611F5A983A6 /* GrowingTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B194D5FA3F1149C8746EB1BDAF1236F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96467B00DB3904986883BDBF4EED32A /* ASJExpandableTextView-dummy.m in Sources */,
+				17C24653C3B9A56E104D7FC8B8B57610 /* ASJExpandableTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B68974BB8BDE5148A6E6EE3415196DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFAF07C46CE37B77A7758EAC7575753 /* Pods-myWhtsapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC7EA95310C5E1E724C632852F7D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */,
+				6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */,
+				2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */,
+				4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */,
+				33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */,
+				F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */,
+				DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */,
+				3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */,
+				0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */,
+				86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */,
+				33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */,
+				52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */,
+				6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */,
+				C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */,
+				7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */,
+				378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */,
+				EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */,
+				8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */,
+				9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */,
+				6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */,
+				EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C451D934D96682AF2F940C7471E8C51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KMPlaceholderTextView;
+			target = D53804E34279A83A61915C6ACA3C0D06 /* KMPlaceholderTextView */;
+			targetProxy = 65FCF3A097A147814A269BD7AA013D31 /* PBXContainerItemProxy */;
+		};
+		832B0F94E0D4E221E2870881E1D1C75D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = C4944FEC314D1A66588651D006273ADE /* Kingfisher */;
+			targetProxy = 8C57BF0D9AAC2841F20D5E64B6D479C8 /* PBXContainerItemProxy */;
+		};
+		8C8FEA03EEAF2616AD0087959D89A388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASJExpandableTextView;
+			target = 2140E9649D698A3434B1489C2C40558E /* ASJExpandableTextView */;
+			targetProxy = DA19CDEA336A875FC8F81CBFBFA06564 /* PBXContainerItemProxy */;
+		};
+		92CB3CD57451609525C60254DEFC275E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALTextInputBar;
+			target = 49E49CAB1E94D750D1376CF1811A64DF /* ALTextInputBar */;
+			targetProxy = D0200EA0EBC31071EE1D2659C85D64FA /* PBXContainerItemProxy */;
+		};
+		9F0DACD41A614E0CEBB9E7D584094DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GrowingTextView;
+			target = ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */;
+			targetProxy = B94112B13E745D3D161494A57E258F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B4841A47AE9FC9334B05F6B8B3102FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED7AD646F0A486F1D8ED9ADBBD1C662 /* KMPlaceholderTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPlaceholderTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KMPlaceholderTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		380C30050278E488BE23DB926933212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62D881FE655AC28489DAC75D5572A97 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		535FB98F2B86ABAFBA66FC9A48E07F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6415D81D9E734DEF5DCF1B82E8835B /* ALTextInputBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALTextInputBar/ALTextInputBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALTextInputBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALTextInputBar/ALTextInputBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALTextInputBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62D881FE655AC28489DAC75D5572A97 /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7AB7F2D2886DBE6E51733F20A5274ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316840B527481C72D51D53E15BC75362 /* Pods-myWhtsapp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myWhtsapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myWhtsapp/Pods-myWhtsapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myWhtsapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8ECF969827B5C6687EDB401736FF571A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918BC6BC412C041077F69D1AFB7D84FE /* Pods-myWhtsapp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-myWhtsapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-myWhtsapp/Pods-myWhtsapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_myWhtsapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC612F5E0CDDDFA732FF7D451E18004D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86171D760FF0C6F43281F93501AE7D13 /* GrowingTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D23A674C79E52157F8C656F9C478CC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86171D760FF0C6F43281F93501AE7D13 /* GrowingTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE94B16C0E81CA680AC0C25BA03AA049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6415D81D9E734DEF5DCF1B82E8835B /* ALTextInputBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALTextInputBar/ALTextInputBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALTextInputBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALTextInputBar/ALTextInputBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALTextInputBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7E39B6DA099E73935D9780FF0C4B931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED7AD646F0A486F1D8ED9ADBBD1C662 /* KMPlaceholderTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KMPlaceholderTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KMPlaceholderTextView/KMPlaceholderTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KMPlaceholderTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF044CE5D07673624D6B033A19C5BD92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AE6ABF2D4050505FAB598D72D0F4F7 /* ASJExpandableTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASJExpandableTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASJExpandableTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF73897413724BE7450E5AF165B917FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10AE6ABF2D4050505FAB598D72D0F4F7 /* ASJExpandableTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASJExpandableTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASJExpandableTextView/ASJExpandableTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASJExpandableTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0230C78404A25B377767385F2817B0B6 /* Build configuration list for PBXNativeTarget "ASJExpandableTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF044CE5D07673624D6B033A19C5BD92 /* Debug */,
+				FF73897413724BE7450E5AF165B917FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067781AD62F19538A7B4C2223D362013 /* Build configuration list for PBXNativeTarget "KMPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4841A47AE9FC9334B05F6B8B3102FC /* Debug */,
+				F7E39B6DA099E73935D9780FF0C4B931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D06AB6B47A55D6657753C9AF1E4D6B /* Build configuration list for PBXNativeTarget "GrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23A674C79E52157F8C656F9C478CC9B /* Debug */,
+				CC612F5E0CDDDFA732FF7D451E18004D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C060605EEFE3D6CC2A84DBDF9B9FC5 /* Build configuration list for PBXNativeTarget "Pods-myWhtsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECF969827B5C6687EDB401736FF571A /* Debug */,
+				7AB7F2D2886DBE6E51733F20A5274ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */,
+				380C30050278E488BE23DB926933212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9791C819583702E93C59242B2DE4D01D /* Build configuration list for PBXNativeTarget "ALTextInputBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE94B16C0E81CA680AC0C25BA03AA049 /* Debug */,
+				535FB98F2B86ABAFBA66FC9A48E07F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
